@@ -5,8 +5,8 @@ import { Link } from "expo-router";
 const App = () => {
   return (
     <View className="flex-1 items-center justify-center bg-white">
-      <Text>App</Text>
-      <Link href='/profile' className='text-rose-600'>To Profile</Link>
+      <Text className="text-3xl font-pblack">Aora!</Text>
+      <Link href='./home' className='text-rose-600'>To Home</Link>
     </View>
   );
 };
